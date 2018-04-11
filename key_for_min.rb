@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   newarray = []
   who = " "
-   if name_hash == " "
+   if name_hash == { }
      return nil
   else
       newarray << name_hash.collect {|key, value|  value }
