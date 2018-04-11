@@ -18,6 +18,6 @@ def key_for_min_value(name_hash)
             who = key
           end
        }
-       return key
+       return who
   end
 end
