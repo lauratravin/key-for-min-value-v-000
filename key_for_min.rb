@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
 
         newarray[0].sort
 
-       name_hash.collect {|key, value|
+       name_hash.each {|key, value|
 
           if value == newarray[0][0]
             who = key
