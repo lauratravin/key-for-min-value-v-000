@@ -7,10 +7,9 @@ def key_for_min_value(name_hash)
    if name_hash == " "
      return nil
   else
-      name_hash.collect {|key, value|
-      newarray =  value
-       }
-        newarray.sort
+      newarray << name_hash.collect {|key, value|  value }
+
+        newarray[0].sort
 
        name_hash.collect {|key, value|
 
