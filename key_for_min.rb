@@ -10,9 +10,11 @@ def key_for_min_value(name_hash)
       name_hash.collect {|key, value|
       newarray <<  value
        }
+        newarray.sort
+
        name_hash.collect {|key, value|
-         newarray.sort
-          if value ==  newarray[0]
+
+          if value == newarray[0]
           who = key
           end
        }
